@@ -1,0 +1,18 @@
+﻿@*@model Category
+<div class="col-4 p-0 justify-content-end">
+		
+          <form class="d-flex" method="post" asp-controller="Category" asp-action="Search" >
+              <span class="btn-group">
+                  <input class="form-control" type="text" name="SearchText" placeholder="Search">
+                  <input class="p-1 m-lg-2 btn btn-sm btn-info" type="submit" value="Search" />
+              </span>         
+          </form>
+</div>
+
+@section Scripts{
+    @{
+        <partial name="_ValidationScriptsPartial" />
+    }
+}*@
+
+
